@@ -1,0 +1,8 @@
+.background-image {
+  background-image: url("assets/meals.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* Adjust the height as per your requirement */
+  background-color: chartreuse;
+}
