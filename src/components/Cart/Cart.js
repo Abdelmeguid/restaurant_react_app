@@ -26,7 +26,7 @@ const Cart = (props) => {
   const orderHandler = () => {
     setIsCheckout(true);
   };
-
+// connect to firebase
   const submitOrderHandler = async (userData) => {
     setIsSubmitting(true);
     await fetch(
